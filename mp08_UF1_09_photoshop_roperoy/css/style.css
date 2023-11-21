@@ -1,0 +1,83 @@
+body:before{
+    content:"Ps";
+    color: skyblue;
+    text-align: center;
+    font-size: 100px;
+    font-family:futura;
+    font-weight: bold;
+    display: block;
+    width: 150px;
+    height: 150px;
+    margin:auto;
+    background-color: midnightblue;
+    border-radius: 30px;
+    line-height: 150px;
+}
+
+.efecte{
+    width: 150px;
+    height: 250px;
+    background: ;
+    margin: 10px;
+    text-align: center;
+    display:inline-block;
+}
+.imatge{
+    width: 150px;
+    height: 150px;
+    background-color:red;
+    background-image: url(../img/Fruita.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.contenidor{
+    width: 800px;
+    margin:auto;
+    text-align: center;
+}
+
+h2{
+    font-size: 18px;
+    font-family: helvetica;
+}
+
+.desenfoc .imatge{
+    filter: blur(5px);
+}
+
+.lluminositat .imatge {
+    filter:brightness(2);
+}
+
+.contrast .imatge {
+    filter:contrast(200);
+}
+
+.ombra .imatge {
+    filter:drop-shadow(10px 5px 10px green);
+}
+
+.escala .imatge {
+    filter:grayscale(2);
+}
+
+.to .imatge {
+    filter:hue-rotate(70deg);
+}
+
+.invertir .imatge{
+    filter: invert(100%);
+}
+
+.opacitat .imatge{
+    filter: opacity(50%);
+}
+
+.saturació .imatge{
+    filter: saturate(30%);
+}
+
+.sepia .imatge{
+    filter: sepia(60%);
+}

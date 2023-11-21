@@ -1,0 +1,499 @@
+* {
+    position: relative;
+}
+
+body{
+
+        background: #925093;
+
+}
+.contenidor{
+    width: 800px;
+    height: 800px;
+    margin: auto;
+    background-color: rgb(94, 79, 79);
+    z-index: 0;
+    overflow: hidden;
+  
+}
+.cap{
+    margin: auto;
+    width: 300px;
+    height: 450px;
+    border-radius:70%;
+    background-color: rgb(215, 185, 129);   
+}
+
+.pel {
+    margin-top: 100px;
+    margin-left: -30px;
+    width: 350px;
+    height: 180px;
+    border-top-right-radius:70%;
+    border-top-left-radius: 70%;
+    background-color:black;
+    overflow: hidden;
+}
+
+
+.pelEsq{
+    margin-left: 250px;
+    clip-path: polygon(15% 0%, 70% 0, 83% 69%, 63% 100%, 61% 46%);
+    width: 100px;
+    height: 500px;
+    border-radius: 0%;
+    background-color:black;
+}
+
+.pelDret{
+    margin-top: -500px;
+    margin-left: -80px;
+    clip-path: polygon(50% 0, 96% 0, 81% 60%, 79% 100%, 59% 45%);
+    width: 100px;
+    height: 500px;
+    border-radius: 0%;
+    background-color:black;
+   
+}
+
+
+.celles {
+    height: 70px;
+    overflow: hidden;
+}
+
+    .cellaEsq{
+        float: left;
+        width: 150px;
+        height: 100px;
+        clip-path: polygon(83% 37%, 85% 50%, 46% 44%, 0 51%, 33% 36%);
+        background-color: black;
+    }
+
+    .cellaDre{
+    float: right;
+        width: 150px;
+        height: 100px;
+        clip-path: polygon(83% 37%, 85% 50%, 46% 44%, 0 51%, 33% 36%);
+        background-color: black;
+        transform: rotateY(180deg);
+        
+    }
+
+.ulls {
+    width: 100%;
+    height: 70px;
+    top: -10px;
+    z-index: 99999999;
+}
+
+    .ullEsq{
+        float: left;
+        margin-left: 50px;
+        width: 70px;
+        height: 70px;
+        border-radius:100% 0;
+        background-color: beige;
+        transform: rotate(55deg);
+        z-index: 999999999;
+    }
+
+        .pupilaEsq{
+            top: 20px;
+            left: 15px;
+            width: 35px;
+            height: 35px;
+            border-radius:50%;
+            background-color: black;
+            z-index: 9999999909;
+        }
+
+        .ullEsq:hover {
+            background-color:rgb(215, 185, 129);
+            border-bottom: black solid 4px;
+        }
+    
+        .ullEsq:hover > .pupilaEsq {
+    
+            background-color:rgb(215, 185, 129);
+        }
+    .ullDre {
+        float: right;
+        margin-right: 50px;
+        width: 70px;
+        height: 70px;
+        border-radius:100% 0;
+        background-color: beige;
+        transform: rotate(35deg);
+        z-index: 9999999999999;
+    }
+
+        .pupilaDre{
+            top: 20px;
+            left: 15px;
+            width: 35px;
+            height: 35px;
+            border-radius:50%;
+            background-color: black;
+            z-index: 99999999999999;
+        }
+        .pupilaDre {
+            animation: trans2 1s ease-in-out 1s infinite alternate;
+        }
+   
+
+    .ullDre:hover {
+        background-color:rgb(215, 185, 129);
+        border-bottom: black solid 4px;
+    }
+
+    .ullDre:hover > .pupilaDre {
+ z-index: 999999999;
+        background-color:rgb(215, 185, 129);
+    }
+
+.nas{
+    margin: auto;
+    width: 45px;
+    height: 45px;
+    clip-path: ellipse(50% 34% at 50% 50%);
+    background-color: black;
+}
+
+    .nas1{
+        width: 45px;
+        height: 45px;
+        top: -5px;
+        clip-path: ellipse(50% 34% at 50% 50%);
+        background-color:rgb(215, 185, 129) ;
+
+    }
+
+
+ .boca {
+    width: 100%;
+    height: 70px;
+    top: -10px;
+ }
+.boca1{
+    margin-top: 95px;
+    margin-left: 126px;
+	width: 40px;
+	height: 40px;
+    border-radius:60% 0;
+	background-color: rgb(192, 95, 111);
+    transform: rotate(45deg);
+    z-index: 53;
+}
+    .boca1:hover{
+        background-color: rgb(88, 62, 111);
+    }
+.boca2{
+    margin-top: -53px;
+    margin-left: 110px;
+	width: 70px;
+	height: 26px;
+    clip-path: polygon(0 0, 53% 100%, 100% 0);;
+    background-color: rgb(215, 185, 129);
+    z-index:55 ;
+    
+}
+
+.lunar1{
+    margin-top: -43px;
+    margin-left: 150px;
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 50%;
+    z-index: 100;
+    position: absolute;
+}
+
+.cerrell {
+    width: 125px;
+    overflow: hidden;
+    margin: auto;
+    top: 100px;
+}
+
+
+.mitjalluna{
+    width: 20px;
+    height: 90px;
+    border-radius: 0 50px 50px 0;
+    border-right: 5px solid rgb(215, 185, 129);
+    float: left;
+    margin: 0 auto;
+}
+
+.lunar2{
+    margin-top: -93px;
+    margin-left: 250px;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50%;
+    z-index: 200;
+    position: absolute;
+}
+
+.lunar3{
+    margin-top: -133px;
+    margin-left: 270px;
+    width: 3px;
+    height: 3px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50%;
+    z-index: 200;
+    position: absolute;
+}
+
+.lunar4{
+    margin-top: -123px;
+    margin-left: 70px;
+    width: 5px;
+    height: 5px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50%;
+    z-index: 200;
+    position: absolute;
+}
+.coll{
+    margin-top: 100px;
+    margin-left: 350px;
+    width: 100px;
+    height: 100px;
+    background-color:  rgb(199, 168, 112);
+    border-radius: 0% 0% 50% 50%;
+    z-index: -90;
+}
+
+.pelderrere1{
+    margin-top: -283px;
+    margin-left: 270px;
+    width: 120px;
+    height: 250px;
+    clip-path: polygon(100% 0, 6% 0, 52% 100%);
+    background-color: black;
+    z-index: -101;
+}
+
+.pelderrere2{
+    margin-top: -253px;
+    margin-left: 450px;
+    width: 120px;
+    height: 250px;
+    clip-path: polygon(100% 0, 6% 0, 52% 100%);
+    background-color: black;
+    z-index: -101;
+}
+
+.pelderrere3{
+    margin-top: -253px;
+    margin-left: 230px;
+    width: 110px;
+    height: 270px;
+    clip-path: polygon(100% 0, 6% 0, 52% 100%);
+    background-color: black;
+    z-index: -101;
+}
+
+.pelderrere4{
+    margin-top: -253px;
+    margin-left: 410px;
+    width: 110px;
+    height: 230px;
+    clip-path: polygon(100% 0, 6% 0, 52% 100%);
+    background-color: black;
+    z-index: -101;
+}
+
+.cos{
+    margin-top: -10px;
+    margin-left: 250px;
+    width: 300px;
+    height: 300px;
+    background-color: rgb(80, 47, 143);
+    border-radius: 30% 30% 0% 0%;
+    z-index:-90;
+} 
+ 
+.manigues1{
+    margin-top: -200px;
+    margin-left: 300px;
+    width: 5px;
+    height: 200px;
+    background-color: rgb(0, 0, 0);
+}
+
+.manigues2{
+    margin-top: -200px;
+    margin-left: 490px;
+    width: 5px;
+    height: 200px;
+    background-color: rgb(0, 0, 0);
+}
+
+.triangle1{
+    margin-top: -300px;
+    margin-left: 350px;
+    width: 50px;
+    height: 50px;
+    clip-path: polygon(100% 0, 0 0, 0 100%);
+    background-color: white;
+  
+}
+
+.triangle2{
+    margin-top: -50px;
+    margin-left: 400px;
+    width: 50px;
+    height: 50px;
+    clip-path: polygon(100% 100%, 0 0, 100% 0);
+    background-color: white;
+  
+}
+
+.boto1{
+    margin-top: 13px;
+    margin-left: 390px;
+    width: 15px;
+    height: 15px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    z-index: 100;
+    position: absolute;
+}
+
+.boto2{
+    margin-top: -13px;
+    margin-left: 390px;
+    width: 15px;
+    height: 15px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    z-index: 100;
+    position: absolute;
+}
+
+.lunars{
+    top: 180px;
+}
+
+.lunar1, .lunar2, .lunar3, .lunar4 {
+    top: -600px;
+    z-index: 99999999999999999;
+}
+
+.ulls, .boca1, .boca2  {
+    top: -550px;
+}
+
+.celles {
+    top: -530px;
+}
+
+.nas {
+    top: -690px; 
+}
+
+.botons{
+    width: 100%;
+    height: 70px;
+    top: -100px;
+}
+
+.coll, .pelderrere1, .pelderrere2, .pelderrere3, .pelderrere4, .cos, .manigues1, .manigues2, .triangle1, .triangle2 {
+    top: -115px;
+}
+
+
+  
+  
+  .circle{
+    position: absolute;
+    border-radius: 50%;
+    background: #fafafa;
+    animation: pulse 3s infinite;
+    box-shadow: 0px 0px 1px 0px #508fb9;
+    z-index: 20;
+  }
+  
+  .small{
+    width: 300px;
+    height: 300px;
+    left: 150px;
+    bottom: -150px;
+    z-index: -300;
+  }
+  
+  .medium{
+    width: 400px;
+    height: 400px;
+    left: 200px;
+    bottom: -200px;
+    z-index: -300;
+  }
+  
+  .large{
+    width: 600px;
+    height: 600px;
+    left: 300px;
+    bottom: -300px;
+    z-index: -300;
+  }
+  
+  .xlarge{
+    width: 800px;
+    height: 800px;
+    left: -400px;
+    bottom: -400px;
+    z-index: -300;
+  }
+  
+  .xxlarge{
+    width: 1000px;
+    height: 1000px;
+    left: -500px;
+    bottom: -500px;
+    z-index: -330;
+  }
+  
+  .shade1{
+    opacity: 0.2;
+        z-index: -300;
+  }
+  .shade2{
+    opacity: 0.5;
+  }
+  
+  .shade3{
+    
+    opacity: 0.7;
+  }
+  
+  .shade4{
+    
+    opacity: 0.8;
+  }
+  
+  .shade5{
+    z-index: -300;
+    opacity: 0.9;
+  }
+  
+  @keyframes pulse{
+    0%{
+      transform: scale(0.8);
+    }
+    
+    50%{
+      transform: scale(1.2);
+    }
+    
+    100%{
+      transform: scale(0.8);
+    }
+  }
+  

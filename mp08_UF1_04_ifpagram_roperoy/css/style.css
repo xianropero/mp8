@@ -1,0 +1,172 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menu {
+    height: 168px;
+}
+.contacto {
+    height: 195px;
+}
+.contenido {
+    height: 1665px;
+}
+.centrador {
+    width: 1665px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.logo {
+    margin: 20px;
+    height:50px ;
+    width:210px ;
+    float: left;
+}
+.nav {
+    width: 210px;
+    margin: auto;
+    padding-top: 15px;
+}
+.nav ul {
+    height: 50px;
+    width: 260x;
+    padding: 0;
+    margin: auto;
+}
+.nav ul li {
+    width: 42px;
+    height: 42px;
+    margin: 4px;
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.user {
+    margin-top: 20px;
+    width:150px ;
+    float: right;
+}
+.user img {
+    margin-right: 10px;
+}
+ul {
+    width: 1070px;
+    margin: auto;
+    padding: 36px;
+}
+li {
+    display: inline-block;
+    margin: 10px;
+    height:82px ;
+    width:82px ;
+    border-radius: 50%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    line-height: 200px;
+}
+.home {
+    background-image: url(../img/images/images/ifpagram_05.gif);
+}
+.search {
+    background-image: url(../img/images/images/ifpagram_06.gif);
+}
+.tv {
+    background-image: url(../img/images/images/ifpagram_07.gif);
+}
+.like {
+    background-image: url(../img/images/images/ifpagram_08.gif);
+}
+#contacto01 {
+    background-image: url(../img/images/images/ifpagram_17.gif);
+}
+#contacto01:hover {
+    background-size: 200%;
+    background-position: center;
+}
+#contacto02 {
+    background-image: url(../img/images/images/ifpagram_19.gif);
+}
+#contacto03 {
+    background-image: url(../img/images/images/ifpagram_21.gif);
+}
+#contacto04 {
+    background-image: url(../img/images/images/ifpagram_23.gif);
+}
+#contacto05 {
+    background-image: url(../img/images/images/ifpagram_25.gif);
+}
+#contacto06 {
+    background-image: url(../img/images/images/ifpagram_27.gif);
+}
+#contacto07 {
+    background-image: url(../img/images/images/ifpagram_29.gif);
+}
+#contacto08 {
+    background-image: url(../img/images/images/ifpagram_31.gif);
+}
+#contacto09 {
+    background-image: url(../img/images/images/ifpagram_33.gif)
+}
+#contacto10 {
+    background-image: url(../img/images/images/ifpagram_62.png);
+}
+.post {
+    width: 535px;
+    height: 600px;
+    margin: 0 auto;
+    padding: 10px;
+    overflow: hidden;
+    float: left;
+}
+.post img {
+    width: 535px;
+}
+.post div {
+    width: 100px;
+    margin: 5px;
+}
+.post .posteador {
+    width: 200px;
+    float: left;
+}
+.posteador img {
+    width: 50px;
+    border-radius: 50%;
+    float: left;
+}
+.post h5 {
+    height: 30px;
+    line-height: 25px;
+    font-weight: 500;
+}
+.post h6 {
+    height: 20px;
+}
+
+.post .reacciones {
+    width: 170px;
+    height: 30px;
+    float: right;
+    z-index: 10000000000;
+}
+.reacciones .corazon img {
+    width: 23px;
+    margin-right: 4px;
+    float: right;
+    border-radius: 50%;
+    position: relative;
+    top: -15px;
+}
+.reacciones .mas img {
+    width: 23px;
+    float: right;
+    position: relative;
+    top: -8px;
+}
+a:link {
+    opacity: 100%;
+}
+a:hover {
+    opacity: 60%;
+    background-size: 200%;
+}

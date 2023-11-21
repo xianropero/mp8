@@ -1,0 +1,22 @@
+.post{
+    background-color: olive;
+    width: 535px;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+}
+.post img{
+    width: 535px;
+}
+.post div{
+    width: 100px;
+    height: 70px;
+    margin:5px;
+    background-color: blanchedalmond;
+}
+.post postejador{
+    width: 300px;
+}
+.post reaccions{
+
+}

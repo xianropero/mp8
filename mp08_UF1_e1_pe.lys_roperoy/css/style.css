@@ -1,0 +1,257 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(59, 59, 54)
+}
+
+#menu {
+    background-color: black;
+    height: 50px;
+    margin: 0;
+    background-image: url(img/);
+    text-align: center;
+}
+
+#Documentals1 {
+    height:400px ;
+    background-color: blue;
+    margin:0;
+   
+}
+
+    .imatge1{
+        width: 175px;
+        height: 200px;
+        background-color:red;
+        background-image: url(../img/1982Koyaanisqatsi.jpg);
+        background-position: center;
+        border-radius: 5px;
+        position: relative;
+        
+    }
+
+    .imatge2{
+        width: 175px;
+        height: 270px;
+        background-color:red;
+        background-image: url(../img/2004YTuQueSabes.jpg);
+        background-size:auto;
+        border-radius: 5px;
+        margin-top:-200px;
+        margin-left: 192px;
+    }
+
+    .imatge3{
+        width: 175px;
+        height: 270px;
+        background-color:red;
+        background-image: url(../img/2005Earthlings.jpg);
+        background-size:auto;
+        border-radius: 5px;
+        margin-top:-270px;
+        margin-left: 385px;
+    }
+
+    .imatge4{
+        width: 175px;
+        height: 265px;
+        background-color:red;
+        background-image: url(../img/2007Helvetica.jpg);
+        background-size:auto;
+        border-radius: 5px;
+        margin-top:-270px;
+        margin-left: 575px;
+    }
+
+    .imatge5{
+        width: 175px;
+        height: 265px;
+        background-color:red;
+        background-image: url(../img/2007Sicko.jpg);
+        background-size:auto;
+        border-radius: 5px;
+        margin-top:-270px;
+        margin-left:768px;
+    }
+
+    .imatge5{
+        width: 175px;
+        height: 270px;
+        background-color:red;
+        background-image: url(../img/2007Sicko.jpg);
+        background-size:auto;
+        border-radius: 5px;
+        margin-top:-270px;
+        margin-left:768px;
+    }
+
+    .imatge6{
+        width: 175px;
+        height: 270px;
+        background-color:red;
+        background-image: url(../img/2008Zeitgeist2.jpg);
+        background-size:auto;
+        border-radius: 5px;
+        margin-top:-270px;
+        margin-left:961px;
+    }
+
+#Documentals2 {
+    height:400px ;
+    background-color: blue;
+    margin:0;
+}
+
+        .imatge7{
+            width: 175px;
+            height: 270px;
+            background-color:red;
+            background-image: url(../img/2009ArtAndCopy.jpg);
+            background-position: center;
+            border-radius: 5px;
+            position: relative;
+            
+        }
+
+        .imatge8{
+            width: 175px;
+            height: 270px;
+            background-color:red;
+            background-image: url(../img/2009Home.jpg);
+            background-size:auto;
+            border-radius: 5px;
+            margin-top:-270px;
+            margin-left: 192px;
+        }
+
+        .imatge9{
+            width: 175px;
+            height: 270px;
+            background-color:red;
+            background-image: url(../img/2009RipARemixManifesto.jpg);
+            background-size:auto;
+            border-radius: 5px;
+            margin-top:-270px;
+            margin-left: 385px;
+        }
+
+        .imatge10{
+            width: 175px;
+            height: 265px;
+            background-color:red;
+            background-image: url(../img/2010ComprarTirarComprar.jpg);
+            background-size:auto;
+            border-radius: 5px;
+            margin-top:-270px;
+            margin-left: 575px;
+        }
+
+        .imatge11{
+            width: 175px;
+            height: 265px;
+            background-color:red;
+            background-image: url(../img/2010InsideJob.jpg);
+            background-size:auto;
+            border-radius: 5px;
+            margin-top:-270px;
+            margin-left:768px;
+        }
+
+#Pelis1 {
+    height:400px ;
+    background-color: blue;
+    margin:0;
+    background-image: url(img/1982Koyaanisqatsi.jpg);
+}
+
+        .imatge12{
+            width: 175px;
+            height: 270px;
+            background-color:red;
+            background-image: url(../img/2011LaDoctrinaDeShock.jpg);
+            background-position: center;
+            border-radius: 5px;
+            position: relative;
+            
+        }
+
+        .imatge13{
+            width: 175px;
+            height: 270px;
+            background-color:red;
+            background-image: url(../img/2012SearchingForSugarMan.jpg);
+            background-size:auto;
+            border-radius: 5px;
+            margin-top:-270px;
+            margin-left: 192px;
+        }
+
+        .imatge14{
+            width: 175px;
+            height: 270px;
+            background-color:red;
+            background-image: url(../img/2012TheActOfKilling.jpg);
+            background-size:auto;
+            border-radius: 5px;
+            margin-top:-270px;
+            margin-left: 385px;
+        }
+
+        .imatge15{
+            width: 175px;
+            height: 265px;
+            background-color:red;
+            background-image: url(../img/2010ComprarTirarComprar.jpg);
+            background-size:auto;
+            border-radius: 5px;
+            margin-top:-270px;
+            margin-left: 575px;
+        }
+
+
+
+#Pelis2 {
+    height:400px ;
+    background-color: blue;
+    margin:0;
+    background-image: url(img/1982Koyaanisqatsi.jpg);
+}
+
+        .imatge12{
+            width: 175px;
+            height: 270px;
+            background-color:red;
+            background-image: url(../img/XXXXpeli.jpg);
+            background-position: center;
+            border-radius: 5px;
+            position: relative;
+            
+        }
+
+        .imatge13{
+            width: 175px;
+            height: 270px;
+            background-color:red;
+            background-image: url(../img/XXXXpeli.jpg);
+            background-size:auto;
+            border-radius: 5px;
+            margin-top:-270px;
+            margin-left: 192px;
+        }
+#Series1 {
+    height:400px ;
+    background-color: blue;
+    margin:0;
+    background-image: url(img/1982Koyaanisqatsi.jpg);
+}
+    
+#Series2 {
+    height:400px ;
+    background-color: blue;
+    margin:0;
+    background-image: url(img/1982Koyaanisqatsi.jpg);
+}
+
+b{
+    width: 175px;
+    border-radius: 5px;
+}
