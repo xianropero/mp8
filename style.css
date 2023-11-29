@@ -1,15 +1,12 @@
 
-
-
-
 body{
-    background: aliceblue;
+    background: rgb(255, 255, 255);
 
 }
 
 ul a{
-    width: 20rem;
-    height: 20rem;
+    width: 40rem;
+    height: 40rem;
     background-color: rgb(0, 0, 0);
     background-image: radial-gradient(circle, rgba(247,98,163,1) 0%, rgba(255,229,0,1) 100%);
     box-shadow: 2px 5px 3px black(164, 30, 30);
@@ -37,15 +34,10 @@ a{
     
 }
 
-li{
-    list-style: none;
-    
-}
-
 .menu{
-    height: 30rem;
+    height: 25rem;
     background-color: black;
-    margin: 0;
+    margin-top: 0;
 }
 
 h1{
@@ -93,30 +85,16 @@ h2{
     color:aliceblue
 }
 
-h3{
-    font-size: 2rem;
-    margin-top: 9rem;
-    font-family:FUTURA;
-    margin-top: -200px;
+.Sobremi{
+    height: 400px;
+    background-color: brown;
+    font-size: 30px;
+    font-family: Helvetica;
     text-align: center;
-    animation-name: desliz;
-    animation-duration: 2.1s; 
-    animation-timing-function: linear;
-    animation-direction: reverse;
-    color: aliceblue;
+    color:aliceblue;
+    top:39px
 }
 
-h4{
-    font-size: 2rem;
-    margin-top: 9rem;
-    font-family:FUTURA;
-    margin-top: -55px;
-    text-align: center;
-    animation-name: desliza;
-    animation-duration: 2s; 
-    animation-timing-function: linear;
-    animation-direction: reverse;
-    color: aliceblue;
-    margin-left:-400px ;
-    
-}
+
+
+
