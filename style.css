@@ -1,12 +1,22 @@
 
+
 body{
     background: rgb(255, 255, 255);
+}
+
+
+
+body{
+    background: aliceblue;
 
 }
 
 ul a{
+
     width: 40rem;
     height: 40rem;
+     width: 20rem;
+    height: 20rem;
     background-color: rgb(0, 0, 0);
     background-image: radial-gradient(circle, rgba(247,98,163,1) 0%, rgba(255,229,0,1) 100%);
     box-shadow: 2px 5px 3px black(164, 30, 30);
@@ -38,6 +48,17 @@ a{
     height: 25rem;
     background-color: black;
     margin-top: 0;
+}
+li{
+    list-style: none;
+    
+}
+
+.menu{
+    height: 30rem;
+    background-color: black;
+    margin: 0;
+
 }
 
 h1{
@@ -95,6 +116,31 @@ h2{
     top:39px
 }
 
+h3{
+    font-size: 2rem;
+    margin-top: 9rem;
+    font-family:FUTURA;
+    margin-top: -200px;
+    text-align: center;
+    animation-name: desliz;
+    animation-duration: 2.1s; 
+    animation-timing-function: linear;
+    animation-direction: reverse;
+    color: aliceblue;
+}
 
-
+h4{
+    font-size: 2rem;
+    margin-top: 9rem;
+    font-family:FUTURA;
+    margin-top: -55px;
+    text-align: center;
+    animation-name: desliza;
+    animation-duration: 2s; 
+    animation-timing-function: linear;
+    animation-direction: reverse;
+    color: aliceblue;
+    margin-left:-400px ;
+    
+}
 
