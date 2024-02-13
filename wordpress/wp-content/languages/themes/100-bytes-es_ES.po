@@ -1,0 +1,73 @@
+# Translation of Themes - 100 Bytes in Spanish (Spain)
+# This file is distributed under the same license as the Themes - 100 Bytes package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-07-02 15:27:15+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.7\n"
+"Language: es\n"
+"Project-Id-Version: Themes - 100 Bytes\n"
+
+#. Description of the theme
+#, gp-priority: high
+msgid "100 Bytes is a theme that aims to look as optimal as possible to deliver your message to your audience using WordPress as a content manager. The idea is simple, make a theme that looks good everywhere, with as little CSS code as possible. In this case the limit is 100 Bytes of CSS information. Actually the compressed CSS code contains 82 bytes of information, but 100 bytes sounds better."
+msgstr "100 Bytes es un tema que pretende tener un aspecto lo más óptimo posible para transmitir tu mensaje a tu audiencia utilizando WordPress como gestor de contenidos. La idea es simple, hacer un tema que se vea bien en todas partes, con el menor código CSS posible. En este caso el límite es de 100 Bytes de información CSS. En realidad el código CSS comprimido contiene 82 bytes de información, pero 100 bytes suena mejor."
+
+#. Theme Name of the theme
+#, gp-priority: high
+msgid "100 Bytes"
+msgstr "100 Bytes"
+
+#: 404.php:8
+msgid "It looks like nothing was found at this location."
+msgstr "Parece que no se ha encontrado nada en esta ubicación."
+
+#: 404.php:5
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "¡Vaya! No se puede encontrar esa página."
+
+#: index.php:29
+msgid "No content to display"
+msgstr "No hay contenido que mostrar"
+
+#: index.php:23
+msgid "Older posts"
+msgstr "Entradas anteriores"
+
+#: index.php:17
+msgid "Newer posts"
+msgstr "Entradas siguientes"
+
+#: functions.php:8
+msgid "Primary Menu"
+msgstr "Menú principal"
+
+#: footer.php:5
+msgid "WordPress"
+msgstr "WordPress"
+
+#: footer.php:4
+msgid "https://wordpress.org/"
+msgstr "https://es.wordpress.org/"
+
+#: footer.php:2
+msgid "Proudly powered by"
+msgstr "Funciona gracias a"
+
+#. Author URI of the theme
+#, gp-priority: low
+msgid "https://www.marcarmengou.com/"
+msgstr "https://www.marcarmengou.com/"
+
+#. Theme URI of the theme
+#, gp-priority: low
+msgid "https://github.com/MarcArmengou/100-bytes"
+msgstr "https://github.com/MarcArmengou/100-bytes"
+
+#. Author of the theme
+#, gp-priority: low
+msgid "Marc Armengou"
+msgstr "Marc Armengou"
