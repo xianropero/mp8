@@ -1,0 +1,118 @@
+*{
+    position: relative;
+    margin: 0%;
+}
+
+
+body{
+    background:url(img/fons.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contenidor{
+    height: 780px;
+    margin: 0 auto;
+    
+
+}
+
+img{
+    margin: auto;
+    margin-left: 450px;
+}
+
+.cap{
+    margin: auto;
+    margin-left: 200px;
+
+    animation-name: transition;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes transition{
+    0%{image-orientation: 0grad from-image;}
+    25%{}
+    50%{}
+    75%{}
+    100%{}
+}
+    
+
+
+.fitxa:hover{
+    opacity: 50%;
+}
+
+
+
+.fitxa{
+    width: 1rem;
+    height: 260px;
+    float: left;
+    margin-left: 250px;
+    margin-bottom: 20px;
+
+    animation-name: spin;
+    animation-duration: 5000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+
+/* @keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+} */
+
+.filaprimera{
+    overflow: hidden;
+   
+}
+
+.filasegona{
+    overflow: hidden;
+  
+}
+
+.filatercera{
+    overflow: hidden;
+    
+}
+
+h3{
+    text-align: left;
+    color: black;
+    margin-left: 450px;
+}
+
+.lateral {
+    float: right;
+    width: 14%;
+}
+
+.logo{
+    margin-left: 530px;
+}
+
+h1{
+    font-size: 4em;
+    color: black;
+    font-family:Arial, Helvetica, sans-serif ;
+    text-align: center;
+    
+}
+.text{
+    width: 22rem;
+margin-left: 850px;
+}
+#color{
+    color: grey;
+}
